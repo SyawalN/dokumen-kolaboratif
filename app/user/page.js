@@ -1,14 +1,16 @@
 "use client"
 
 import { useEffect } from "react"
-import withAuth from "./(utils)/withAuth"
+import withAuth from "@/app/(utils)/withAuth"
 import { useRouter } from "next/navigation"
 
-const Loading = () => {
+const RedirectHome = () => {
   const router = useRouter()
   
   useEffect(() => {
-    router.push('/login')
+    if (localStorage.getItem('username') !== null) {
+      router.push('/user/' + localStorage.getItem('username'))
+    }
   }, [])
 
   return (
@@ -20,4 +22,4 @@ const Loading = () => {
   )
 }
 
-export default withAuth(Loading)
+export default RedirectHome

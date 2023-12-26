@@ -1,0 +1,113 @@
+.main {
+  width: inherit;
+  height: inherit;
+  background-image: url('https://images.pexels.com/photos/245240/pexels-photo-245240.jpeg');
+  background-size: 100% 100%;
+
+}
+
+div.overlay {
+  width: inherit;
+  height: inherit;
+  background-color: rgba(0, 0, 0, .5);
+}
+
+div.top-container {
+  height: 10%;
+}
+
+div.top-container-box {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: white;
+  background-color: #4E6CDD;
+  font-family: sans-serif;
+  letter-spacing: 3px;
+  padding: 15px 20px;
+  height: 100%;
+}
+
+div.bottom-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90%;
+}
+
+div.bottom-container-box {
+  background-color: rgba(79, 69, 67, .75);
+  border: 4px solid #24201d;
+  width: 25%;
+  height: 50%;
+}
+
+img.background-image {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  width: 100%;
+  height: 100%;
+}
+
+.form-container > h1 {
+  letter-spacing: 3px;
+  margin: 20px 0 25px;
+}
+
+.form-container > form {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  height: 60%;
+}
+
+.form-container form > label {
+  margin: 20px 0 5px;
+}
+
+.form-container form > input {
+  font-size: 16px;
+  border: 1px solid black;
+  border-radius: 3px;
+  padding: 6px
+}
+
+.form-container form > button:hover {
+  background-color: #2f5da3;
+}
+
+.endForm {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.endForm > a {
+  color: lightblue;
+  text-decoration: none;
+}
+
+.endForm > a:hover {
+  color: cornflowerblue;
+}
+
+.endForm > button {
+  color: #FFEDD2;
+  background-color: #447FD8;
+  border-radius: 7px;
+  font-size: 16px;
+  letter-spacing: 3px;
+  width: 98px;
+  height: 39px;
+}

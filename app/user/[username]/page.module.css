@@ -1,0 +1,163 @@
+.main {
+  width: inherit;
+  height: inherit;
+}
+
+/* Top Container */
+div.top-container {
+  height: 40%;
+}
+
+div.top-container-box-up {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  background-color: #4E6CDD;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+  font-family: sans-serif;
+  letter-spacing: 3px;
+  height: 25%;
+  padding: 15px 20px;
+  position: relative;
+  z-index: 1;
+}
+
+div.top-container-box-down {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to bottom, #3B59C9 20%, #394FA0 100%);
+  height: 75%;
+  padding: 20px;
+  position: relative;
+}
+
+/* Top Container Box - Up | Account Dropdown */
+.dropdown {
+  display: inline-block;
+  border: 1px solid black;
+  height: 100%;
+  position: relative;
+}
+
+.dropdown > #dropdown-content {
+  display: none;
+  width: 100%;
+  height: inherit;
+  position: absolute;
+}
+
+#dropdown-content > button {
+  width: inherit;
+  height: inherit;
+}
+
+#dropdown-content.show {
+  display: block;
+}
+
+#account-icon {
+  display: flex;
+  align-items: center;
+  border: 2px solid white;
+  border-radius: 4px;
+  height: 100%;
+}
+
+#account-icon:hover {
+  cursor: pointer;
+  background-color: rgb(45, 59, 81, 0.6);
+  border-radius: 4px;
+  overflow: visible;
+}
+
+#account-icon span {
+  display: inline;
+  width: 48px;
+  height: 48px;
+  font-size: 48px;
+}
+
+#account-icon p {
+  display: inline;
+  margin: 0 20px;
+}
+
+/* Top Container Box - Down | New Document Button */
+#new-document-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #242943;
+  border: 7px solid #242943;
+  letter-spacing: 3px;
+  width: 25%;
+  height: 100%;
+}
+
+#new-document-button > span {
+  font-size: 80px;
+  margin-bottom: 16px;
+}
+
+#new-document-button:hover {
+  cursor: pointer;
+  color: #8b90ad;
+  background-color: rgb(45, 59, 81, 0.6);
+}
+
+
+/* Bottom Container */
+div.bottom-container {
+  height: 60%;
+}
+
+div.bottom-container-box-up {
+  display: flex;
+  align-items: center;
+  color: white;
+  background-color: #242943;
+  padding-left: 20px;
+  height: 15%;
+}
+
+div.bottom-container-box-down {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  background: linear-gradient(to bottom, #e1dcd3 0%, #c4bcae 100%);
+  height: 85%;
+}
+
+/* Bottom Container Box - Down | Document List */
+#document-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 100%;
+}
+
+.prevent-select {
+  user-select: none;
+}
+
+.document-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: grey;
+  border: solid grey;
+  letter-spacing: 2px;
+  width: 20%;
+  height: 100%;
+}
+
+.document-item:hover {
+  background-color: #c4bcae;
+  cursor: pointer;
+}
