@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Setup
 
-## Getting Started
-
-First, run the development server:
-
+1\. Install dependencies yang dibutuhkan untuk project, gunakan perintah dibawah:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install --production=false
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2\. Konfigurasi .env file untuk membuat variabel yang dibutuhkan untuk project, silahkan ikuti instruksi pada file .env.example
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+3\. Project juga membutuhkan dependency lain seperti MongoDB agar dapat menyimpan data
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+<br />
 
-## Learn More
+## Menjalankan Project
 
-To learn more about Next.js, take a look at the following resources:
+1.\ Run Client
+Client dijalankan dengan NextJS, gunakan perintah dibawah pada terminal:
+```bash
+npm run dev
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2\. Run Server
+Server akan dijalankan dengan Nodemon, gunakan perintah dibawah pada terminal lain / terminal baru:
+```bash
+npm run devStart
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+<br />
 
-## Deploy on Vercel
+### Kelompok 20
+1. 2101020070 - Marsela Zailanti
+2. 2201020099 - Syawal Nopyandi
+3. 2201020105 - Maulana Fitra Ramadhani
+4. 2201020109 - M. Wisnu Adjie Pramudya
+5. 2201020122 - Zeldiyan Arafat
+6. 2201020136 - Kuncoro Lukito
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+<br />
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Project ini dibuat oleh <b>Kelompok 20</b> untuk memenuhi tugas Final Project mata kuliah <b>Sistem Terdistribusi</b>.
