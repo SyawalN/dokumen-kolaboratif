@@ -13,7 +13,7 @@ npm install --production=false
 
 ## Menjalankan Project
 
-1.\ Run Client
+1\. Run Client
 Client dijalankan dengan NextJS, gunakan perintah dibawah pada terminal:
 ```bash
 npm run dev
