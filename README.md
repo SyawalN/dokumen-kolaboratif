@@ -2,7 +2,7 @@
 
 1\. Install dependencies yang dibutuhkan untuk project, gunakan perintah dibawah:
 ```bash
-npm install --production=false
+npm install
 ```
 
 2\. Konfigurasi .env file untuk membuat variabel yang dibutuhkan untuk project, silahkan ikuti instruksi pada file .env.example
