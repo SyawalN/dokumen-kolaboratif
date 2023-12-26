@@ -18,6 +18,8 @@ Client dijalankan dengan NextJS, gunakan perintah dibawah pada terminal:
 ```bash
 npm run dev
 ```
+###### Note: Client URL dapat diubah dengan menambahkan ```-H <ip_address> -p <port>``` pada file package.json dibagian ```"dev": "next dev"``` ,
+###### (Contoh) ```"dev": "next dev -H 192.0.2.1 -p 3005"``` akan menjalankan NextJS pada ip 192.0.2.1 dan port 3005.
 
 ### 2\. Run Server
 Server akan dijalankan dengan Nodemon, gunakan perintah dibawah pada terminal lain / terminal baru:
